@@ -1,5 +1,2 @@
-# Dev Digest Worker
-
-Get all set off content the websites
-
+# Dev Digest Parser
 Soon...
