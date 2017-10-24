@@ -8,7 +8,6 @@
   },
   "scripts": {
     "postinstall": "cp -Ri config.json.example config.json",
-    "start": "node index.js",
     "dev": "nodemon --watch './'"
   },
   "repository": {
