@@ -1,6 +1,6 @@
 'use strict';
 
-require('./database');
+require('./infra/database');
 const feedRead = require('feed-read');
 const Post = require('./model/post');
 const feedsData = require('./data/feeds');
