@@ -18,6 +18,10 @@ const feeds = [
   {
     url: 'https://davidwalsh.name/feed',
     category: 'development'
+  },
+  {
+    url: 'https://ponyfoo.com/articles/feed',
+    category: 'javascript'
   }
 ];
 
