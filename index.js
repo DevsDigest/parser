@@ -50,13 +50,13 @@ function savePosts() {
       }
 
       let post = new Post({
-          site_name: item.site_name,
-          title: item.title,
-          url: item.url,
-          author: item.author,
-          category: item.category,
-          date_published: item.date_published,
-          date_formated: item.date_formated
+        site_name: item.site_name,
+        title: item.title,
+        url: item.url,
+        author: item.author,
+        category: item.category,
+        date_published: item.date_published,
+        date_formated: item.date_formated
       });
 
       post.save((err) => {
