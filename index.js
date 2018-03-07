@@ -36,6 +36,7 @@ function parser(url, category, callback) {
       date_published: article[0].published,
       date_formated: moment(article[0].published).format('MM/DD/YYYY')
     });
+    
     callback();
   });
 }
@@ -46,17 +47,18 @@ function savePosts() {
       if (err) throw err;
 
       if (doc.length > 0) {
-        process.exit();
+        console.log(`There is already the post: ${item.title}`);
+        return;
       }
 
       let post = new Post({
-        site_name: item.site_name,
+        siteName: item.site_name,
         title: item.title,
         url: item.url,
         author: item.author,
         category: item.category,
-        date_published: item.date_published,
-        date_formated: item.date_formated
+        datePublished: item.date_published,
+        dateFormated: item.date_formated
       });
 
       post.save((err) => {

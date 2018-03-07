@@ -7,8 +7,8 @@ const schema = new Schema({
   title: String,
   url: String,
   author: String,
-  datePublished: Date,
-  date: String,
+  datePublished: { type: Date, default: Date.now },
+  dateFormated: String,
   category: String
 });
 
