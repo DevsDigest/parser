@@ -1,2 +1,2 @@
-# Dev Digest Parser
+# Devs Digest Parser
 Soon...
