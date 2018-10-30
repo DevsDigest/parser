@@ -20,14 +20,14 @@
   "author": "Tiago Celestino",
   "license": "MIT",
   "dependencies": {
-    "async": "2.6.0",
-    "dotenv": "4.0.0",
+    "async": "2.6.1",
+    "dotenv": "6.1.0",
     "feed-read": "0.0.1",
-    "joi": "13.1.2",
-    "moment": "2.21.0",
-    "mongoose": "4.12.3"
+    "joi": "14.0.2",
+    "moment": "2.22.2",
+    "mongoose": "5.3.7"
   },
   "devDependencies": {
-    "nodemon": "1.17.1"
+    "nodemon": "1.18.5"
   }
 }
